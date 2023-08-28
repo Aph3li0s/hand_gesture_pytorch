@@ -1,13 +1,10 @@
 import pandas as pd
 
 def write_csv(labels, landmarks_lst):
-    csv_dir = 'landmark.csv'
-    data = []
-    for label, landmarks in zip(labels, landmarks_lst):
-        data.append([label, *landmarks])
-    print(data)
+    csv_path = 'landmark.csv'
+    data = [[labels, *landmarks_lst]]
     df = pd.DataFrame(data)
-    df.to_csv(csv_dir, index=False, header=False)
+    df.to_csv(csv_path, mode='a', header=False, index=False)
 
 
 if __name__ == '__main__':
