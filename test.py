@@ -7,15 +7,20 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
 
+def load_labels():
+    ges = {}
+    with open('data_processing/gesture_names.txt', 'r') as f:
+        lines = f.readlines()
+        for line in lines:
+            num, label = line.strip().split(': ')
+            num = int(num)
+            ges[num] = label
+    return ges.keys(), ges.values()
+
+
 kpclf = predict.KeyPointClassifier()
-gestures = {
-    0: "Stop",
-    1: "Forward",
-    2: "Left",
-    3: "Right",
-    4: "Backward",
-    5: "No hand detected"
-}
+key, value = load_labels()
+gestures = dict(zip(key, value))
 
 # For webcam input:
 cap = cv2.VideoCapture(0)
@@ -27,19 +32,15 @@ with mp_hands.Hands(
         success, image = cap.read()
         if not success:
             print("Ignoring empty camera frame.")
-            # If loading a video, use 'break' instead of 'continue'.
             continue
 
-        # To improve performance, optionally mark the image as not writeable to
-        # pass by reference.
         image.flags.writeable = False
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         results = hands.process(image)
 
-        # Draw the hand annotations on the image.
         image.flags.writeable = True
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-        gesture_index = 5
+        gesture_index = 3
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
                 landmark_list = u.calc_landmark_list(image, hand_landmarks)
@@ -52,7 +53,7 @@ with mp_hands.Hands(
                     mp_hands.HAND_CONNECTIONS,
                     mp_drawing_styles.get_default_hand_landmarks_style(),
                     mp_drawing_styles.get_default_hand_connections_style())
-        # Flip the image horizontally for a selfie-view display.
+
         final = cv2.flip(image, 1)
         cv2.putText(final, gestures[gesture_index],
                     (10, 30), cv2.FONT_HERSHEY_DUPLEX, 1, 255)

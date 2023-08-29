@@ -31,9 +31,9 @@ def calc_landmark_list(image, landmarks):
     for _, landmark in enumerate(landmarks.landmark):
         landmark_x = min(int(landmark.x * image_width), image_width - 1)
         landmark_y = min(int(landmark.y * image_height), image_height - 1)
-        # landmark_z = landmark.z
+        landmark_z = landmark.z
 
-        landmark_point.append([landmark_x, landmark_y])
+        landmark_point.append([landmark_x, landmark_y, landmark_z])
 
     return landmark_point
 
@@ -46,10 +46,10 @@ def pre_process_landmark(landmark_list):
     for index, landmark_point in enumerate(temp_landmark_list):
         if index == 0:
             base_x, base_y = landmark_point[0], landmark_point[1]
-
+            base_z = landmark_point[2]
         temp_landmark_list[index][0] = temp_landmark_list[index][0] - base_x
         temp_landmark_list[index][1] = temp_landmark_list[index][1] - base_y
-
+        temp_landmark_list[index][2] = temp_landmark_list[index][2] - base_z
     # Convert to a one-dimensional list
     temp_landmark_list = list(
         itertools.chain.from_iterable(temp_landmark_list))

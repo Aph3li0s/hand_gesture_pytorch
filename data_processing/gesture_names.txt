@@ -1,6 +1,4 @@
-0: No hand detected
-1: Stop
-2: Forward
-3: Backward
-4: Left
-5: Right
+0: Zero
+1: One
+2: Two
+3: No hand detected
