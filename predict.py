@@ -4,8 +4,8 @@ import model as m
 class KeyPointClassifier(object):
     def __init__(self):
         self.device = 'cuda'
-        self.model = m.SimpleNN()
-        self.model.load_state_dict(torch.load('models/model3.pth'))
+        self.model = m.SimpleNN2()
+        self.model.load_state_dict(torch.load('models/model3_test.pth'))
         self.model.eval().to(self.device)
 
     def __call__(self, landmark_list):

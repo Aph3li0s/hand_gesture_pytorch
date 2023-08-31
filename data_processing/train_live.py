@@ -76,8 +76,8 @@ def train_live(num_label, num_im):
 
 if __name__ == '__main__':
     ges_num = []
-    with open('landmark.csv', 'w') as f:
-        f.truncate(0)
+    # with open('landmark.csv', 'w') as f:
+    #     f.truncate(0)
     key, _ = load_labels()
     for i in key:
         ges_num.append(i)
