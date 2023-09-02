@@ -1,9 +1,9 @@
 import torch.nn as nn
 class SimpleNN(nn.Module):
-    def __init__(self, num_classes=5):
+    def __init__(self, num_classes=2):
         super(SimpleNN, self).__init__()
         self.dropout1 = nn.Dropout(0.2)
-        self.fc1 = nn.Linear(21 * 2, 20)
+        self.fc1 = nn.Linear(21 * 3, 20)
         self.dropout2 = nn.Dropout(0.4)
         self.fc2 = nn.Linear(20, 10)
         self.fc3 = nn.Linear(10, num_classes)

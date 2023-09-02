@@ -16,7 +16,7 @@ def load_labels():
 def data_init():
     print("How many images per label?")
     # num_im = int(input())
-    num_im = 20
+    num_im = 1000
     return num_im
 
 def train_live(num_label, num_im):
@@ -29,6 +29,7 @@ def train_live(num_label, num_im):
     j = 0
     with mp_hands.Hands(
             model_complexity=0,
+            # max_num_hands=2,
             min_detection_confidence=0.5,
             min_tracking_confidence=0.5) as hands:
         while cap.isOpened():
@@ -57,12 +58,12 @@ def train_live(num_label, num_im):
 
             final = cv2.flip(image, 1)
             cv2.imshow('MediaPipe Hands', final)
-            cv2.putText(final, f'Label {num_label[j]}, Count: {i+1}', (10, 30), cv2.FONT_HERSHEY_DUPLEX, 0.8, (255, 255, 255))
+            cv2.putText(final, f'Label {num_label[j]}, Count: {i+1}', (10, 30), cv2.FONT_HERSHEY_DUPLEX, 0.8, 255)
             cv2.imshow('MediaPipe Hands', final)
             key = cv2.waitKey(200)
             if key == 27:
                 break
-            if key == ord('c'):
+            if key == ord(' '):
                 w.write_csv(num_label[j], pre_processed_landmark_list)
                 i += 1
             if i == num_im:
@@ -76,7 +77,7 @@ def train_live(num_label, num_im):
 
 if __name__ == '__main__':
     ges_num = []
-    with open('landmark2.csv', 'w') as f:
+    with open('landmark.csv', 'w') as f:
         f.truncate(0)
     key, _ = load_labels()
     for i in key:

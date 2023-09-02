@@ -26,6 +26,7 @@ gestures = dict(zip(key, value))
 cap = cv2.VideoCapture(0)
 with mp_hands.Hands(
         model_complexity=0,
+        # max_num_hands=2,
         min_detection_confidence=0.5,
         min_tracking_confidence=0.5) as hands:
     while cap.isOpened():
@@ -40,7 +41,7 @@ with mp_hands.Hands(
 
         image.flags.writeable = True
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-        gesture_index = 3
+        gesture_index = 5
         if results.multi_hand_landmarks:
             for hand_landmarks in results.multi_hand_landmarks:
                 landmark_list = u.calc_landmark_list(image, hand_landmarks)
@@ -56,7 +57,7 @@ with mp_hands.Hands(
 
         final = cv2.flip(image, 1)
         cv2.putText(final, gestures[gesture_index],
-                    (10, 30), cv2.FONT_HERSHEY_DUPLEX, 1, 255)
+                    (10, 30), cv2.FONT_HERSHEY_DUPLEX, 0.8, 255)
         cv2.imshow('MediaPipe Hands', final)
         if cv2.waitKey(5) & 0xFF == 27:
             break

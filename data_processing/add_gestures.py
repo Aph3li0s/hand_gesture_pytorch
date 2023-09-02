@@ -9,7 +9,7 @@ def add_ges():
     return gestures
 
 def save_ges(gestures):
-    txt_dir = 'gesture_names.txt'
+    txt_dir = 'gesture_names2.txt'
     with open(txt_dir, 'w') as f:
         # f.write(f"0: No hand detected\n")
         for num, label in gestures.items():
