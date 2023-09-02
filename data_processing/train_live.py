@@ -15,8 +15,8 @@ def load_labels():
 
 def data_init():
     print("How many images per label?")
-    num_im = int(input())
-    # num_im = 20
+    # num_im = int(input())
+    num_im = 20
     return num_im
 
 def train_live(num_label, num_im):
@@ -76,8 +76,8 @@ def train_live(num_label, num_im):
 
 if __name__ == '__main__':
     ges_num = []
-    # with open('landmark.csv', 'w') as f:
-    #     f.truncate(0)
+    with open('landmark2.csv', 'w') as f:
+        f.truncate(0)
     key, _ = load_labels()
     for i in key:
         ges_num.append(i)
