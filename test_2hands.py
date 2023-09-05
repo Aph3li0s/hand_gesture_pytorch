@@ -6,6 +6,7 @@ import itertools
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_hands = mp.solutions.hands
+
 def calc_landmark_list(landmarks):
     landmark_point = []
     for _, landmark in enumerate(landmarks.landmark):
@@ -28,7 +29,6 @@ def load_labels():
     return ges.keys(), ges.values()
 
 def combined_lst(landmarks_lst1, num, landmarks_lst2=None):
-    # Left first, then Right
     zeros_list = [0] * 63
     if num == 0:
         final_lst = landmarks_lst1 + zeros_list
@@ -42,7 +42,6 @@ kpclf = predict.KeyPointClassifier()
 key, value = load_labels()
 gestures = dict(zip(key, value))
 
-# For webcam input:
 cap = cv2.VideoCapture(0)
 with mp_hands.Hands(
         model_complexity=0,
@@ -60,18 +59,8 @@ with mp_hands.Hands(
         results = hands.process(image)
         image.flags.writeable = True
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+
         gesture_index = 8
-        # if results.multi_hand_landmarks:
-        #     for hand_landmarks in results.multi_hand_landmarks:
-        #         landmark_list = calc_landmark_list(hand_landmarks)
-        #         print(len(landmark_list))
-        #         gesture_index = kpclf(landmark_list)
-        #         mp_drawing.draw_landmarks(
-        #             image,
-        #             hand_landmarks,
-        #             mp_hands.HAND_CONNECTIONS,
-        #             mp_drawing_styles.get_default_hand_landmarks_style(),
-        #             mp_drawing_styles.get_default_hand_connections_style())
         if results.multi_hand_landmarks and results.multi_handedness:
             left = []
             right = []
@@ -90,15 +79,13 @@ with mp_hands.Hands(
                     left.extend(landmark_list)
             if len(results.multi_handedness) == 1:
                 if handedness.classification[0].label == "Left":
-                    # print("Right")
                     new_lst = combined_lst(right, 1)
                 if handedness.classification[0].label == "Right":
-                    # print("Left")
                     new_lst = combined_lst(left, 0)
             elif len(results.multi_handedness) == 2:
-                # print("Both")
                 new_lst = combined_lst(left, 2, right)  # Combine both left and right landmarks
             gesture_index = kpclf(new_lst)
+
         final = cv2.flip(image, 1)
         cv2.putText(final, gestures[gesture_index],
                     (10, 30), cv2.FONT_HERSHEY_DUPLEX, 0.8, 255)

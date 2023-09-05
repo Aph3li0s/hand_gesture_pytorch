@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4afffef-cdc7-4c2d-b2ef-7e13993c4363" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data_processing/concat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_processing/csv_file/landmark.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rebuild_handges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rebuild_handges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/check_col.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/gesture_names2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/landmark.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/landmark2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/test_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/train/test_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/train_live.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/train/train_live.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/write_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/write_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/onnx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onnx_model_cuda.onnx" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/csv_file/landmark2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onnx_model_newest.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_b/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_b/hand_landmarker.task" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_b/test_im.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_b/test_webcam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_csv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train_csv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_9_126nn.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_9_7ges.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/no_normalize_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/train/test_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/train/train_live.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixed.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixed2.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model2.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model3_test.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_a.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_b.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_mirror.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/non_normalize.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_2hands.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_2hands.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <recent name="C:\Users\ADMIN\Desktop\Code\planB" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.onnx">
+  <component name="RunManager" selected="Python.test_2hands (1)">
     <configuration name="concat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rebuild_handges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,8 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.onnx" />
         <item itemvalue="Python.test_2hands (1)" />
+        <item itemvalue="Python.onnx" />
         <item itemvalue="Python.concat" />
         <item itemvalue="Python.newest_train" />
         <item itemvalue="Python.model" />
@@ -222,6 +216,7 @@
       <workItem from="1693881097351" duration="1538000" />
       <workItem from="1693883885168" duration="15309000" />
       <workItem from="1693900174293" duration="3381000" />
+      <workItem from="1693906201580" duration="506000" />
     </task>
     <servers />
   </component>
