@@ -26,7 +26,7 @@ gestures = dict(zip(key, value))
 cap = cv2.VideoCapture(0)
 with mp_hands.Hands(
         model_complexity=0,
-        # max_num_hands=2,
+        max_num_hands=2,
         min_detection_confidence=0.5,
         min_tracking_confidence=0.5) as hands:
     while cap.isOpened():
@@ -46,6 +46,7 @@ with mp_hands.Hands(
             for hand_landmarks in results.multi_hand_landmarks:
                 landmark_list = u.calc_landmark_list(image, hand_landmarks)
                 keypoints = u.pre_process_landmark(landmark_list)
+                print(keypoints)
                 gesture_index = kpclf(keypoints)
 
                 mp_drawing.draw_landmarks(
