@@ -50,7 +50,7 @@ class SimpleNN2(nn.Module):
         return x
 
 class SimpleNN3(nn.Module):
-    def __init__(self, num_classes=7):
+    def __init__(self, num_classes=5):
         super(SimpleNN3, self).__init__()
         self.dropout1 = nn.Dropout(0.2)
         self.fc1 = nn.Linear(21 * 3 * 2, 63)

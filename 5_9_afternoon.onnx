@@ -1,7 +1,7 @@
-pytorch1.13.1:÷ã
-≤
+pytorch1.13.1:Çº
+û
 input.1
-onnx::MatMul_36/fc1/MatMul_output_0/fc1/MatMul"MatMul2ÍC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+onnx::MatMul_36/fc1/MatMul_output_0/fc1/MatMul"MatMul2÷C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(98): forward
@@ -17,10 +17,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-Ø
+õ
 fc1.bias
-/fc1/MatMul_output_0/fc1/Add_output_0/fc1/Add"Add2ÍC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+/fc1/MatMul_output_0/fc1/Add_output_0/fc1/Add"Add2÷C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(98): forward
@@ -36,11 +42,15 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-Œ
-
-/fc1/Add_output_0/Relu_output_0/Relu"Relu2õ
-C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
+∫
+/fc1/Add_output_0/Relu_output_0/Relu"Relu2áC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(98): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
@@ -54,10 +64,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-π
+•
 /Relu_output_0
-onnx::MatMul_37/fc2/MatMul_output_0/fc2/MatMul"MatMul2ÍC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+onnx::MatMul_37/fc2/MatMul_output_0/fc2/MatMul"MatMul2÷C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(98): forward
@@ -73,10 +89,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-Ø
+õ
 fc2.bias
-/fc2/MatMul_output_0/fc2/Add_output_0/fc2/Add"Add2ÍC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+/fc2/MatMul_output_0/fc2/Add_output_0/fc2/Add"Add2÷C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(98): forward
@@ -92,11 +114,15 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-“
-
-/fc2/Add_output_0/Relu_1_output_0/Relu_1"Relu2õ
-C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
+æ
+/fc2/Add_output_0/Relu_1_output_0/Relu_1"Relu2áC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(98): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
@@ -110,10 +136,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-º
+®
 /Relu_1_output_0
-onnx::MatMul_38/fc3/MatMul_output_0/fc3/MatMul"MatMul2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+onnx::MatMul_38/fc3/MatMul_output_0/fc3/MatMul"MatMul2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(100): forward
@@ -129,10 +161,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-∞
+ú
 fc3.bias
-/fc3/MatMul_output_0/fc3/Add_output_0/fc3/Add"Add2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+/fc3/MatMul_output_0/fc3/Add_output_0/fc3/Add"Add2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(100): forward
@@ -148,11 +186,15 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-”
-
-/fc3/Add_output_0/Relu_2_output_0/Relu_2"Relu2ú
-C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
+ø
+/fc3/Add_output_0/Relu_2_output_0/Relu_2"Relu2àC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(100): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
@@ -166,10 +208,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-º
+®
 /Relu_2_output_0
-onnx::MatMul_39/fc4/MatMul_output_0/fc4/MatMul"MatMul2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+onnx::MatMul_39/fc4/MatMul_output_0/fc4/MatMul"MatMul2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(100): forward
@@ -185,10 +233,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-∞
+ú
 fc4.bias
-/fc4/MatMul_output_0/fc4/Add_output_0/fc4/Add"Add2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+/fc4/MatMul_output_0/fc4/Add_output_0/fc4/Add"Add2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(100): forward
@@ -204,11 +258,15 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-”
-
-/fc4/Add_output_0/Relu_3_output_0/Relu_3"Relu2ú
-C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
+ø
+/fc4/Add_output_0/Relu_3_output_0/Relu_3"Relu2àC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(100): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
@@ -222,10 +280,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-º
+®
 /Relu_3_output_0
-onnx::MatMul_40/fc5/MatMul_output_0/fc5/MatMul"MatMul2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+onnx::MatMul_40/fc5/MatMul_output_0/fc5/MatMul"MatMul2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(101): forward
@@ -241,10 +305,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-∞
+ú
 fc5.bias
-/fc5/MatMul_output_0/fc5/Add_output_0/fc5/Add"Add2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+/fc5/MatMul_output_0/fc5/Add_output_0/fc5/Add"Add2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(101): forward
@@ -260,11 +330,15 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-”
-
-/fc5/Add_output_0/Relu_4_output_0/Relu_4"Relu2ú
-C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
+ø
+/fc5/Add_output_0/Relu_4_output_0/Relu_4"Relu2àC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\functional.py(1453): relu
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(101): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
@@ -278,10 +352,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-º
+®
 /Relu_4_output_0
-onnx::MatMul_41/fc6/MatMul_output_0/fc6/MatMul"MatMul2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+onnx::MatMul_41/fc6/MatMul_output_0/fc6/MatMul"MatMul2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(102): forward
@@ -297,10 +377,16 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 
-°
+ç
 fc6.bias
-/fc6/MatMul_output_035/fc6/Add"Add2ÎC:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
+/fc6/MatMul_output_035/fc6/Add"Add2◊C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\linear.py(114): forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1176): _slow_forward
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\nn\modules\module.py(1192): _call_impl
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\model.py(102): forward
@@ -316,6 +402,12 @@ C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1108):
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(1501): _export
 C:\Users\ADMIN\anaconda3\envs\train\lib\site-packages\torch\onnx\utils.py(512): export
 C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\onnx.py(6): <module>
+<frozen importlib._bootstrap>(241): _call_with_frames_removed
+<frozen importlib._bootstrap_external>(882): exec_module
+<frozen importlib._bootstrap>(679): _load_unlocked
+<frozen importlib._bootstrap>(999): _find_and_load_unlocked
+<frozen importlib._bootstrap>(1025): _find_and_load
+C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\tfonnx.py(1): <module>
 	torch_jit*—PBfc1.biasJ¿vä>3ìJ>°hî>i0æ.ÆªŒ>òª1ærsê=◊¬Ω ı Ω 3?™nÒ>à9>GU·∑Y{ªÔaPæÜ?Ω-¨ˆ>^:üæì¸=ÆÆ„>™=#≈÷>¥æﬂ~6>ç‹æΩvzL>Ì©õΩIíT>∑,>ÏOyΩõÿ.æüø:ΩÚ'b>ªy?ªô⁄Ωz˘•<'J@æ_ô<}=7€ºX•Ò>á(Ü=´ú·>âlÅæu &=ÿÈƒº◊ÏºÌ\ì>ÔÇIºA ˙ºf…ƒ<,]>5µË>_a;æ[Æ=’⁄?Ç∞T>FS{>¢´#æ™º€Ω›|>p:;W>ºò?HÎa>r{˙ºÔÍˇ>ÆÌ=íñ⁄Ωy≈>Í⁄Ç>Q}àæx$'=Ü.•=Ú6Ú>&BFæÉ2
 >Óµ©<ºcµΩ*ë@Bfc2.biasJÄ¥æg="ml>îπK=Äóñ<s√6ºóæ™Ù>L@6<‡ùÜ<!‚–<∞∑»Ωÿ∫ΩüÏnæ…(ä=»m*>ÏãŒΩx-ç>qx\=¥(o=QM™=@èi>!†ú=[æ; d>Çù=ÖÙ2=eΩ·==àÙ<¬]>j:/>æ'ÑΩ—(ºíµ>è*ê=GÆΩñö4;vy´;é…º∫æ>9vJ=m]>mﬂ;=˚·¢<’j	ºÏ≠ê=G≈¿ºá;º»ô=˙¥Ω<c>·î>≈ÿ˛=Ôxø=∫ÇΩ`Æº÷7=du>ëË$Ω4Øæ—‚&=È&ºÿï=úÃ>JâE=*ë Bfc3.biasJÄM∆?qQâ>4ÿ?é€{ºIä>0äVΩ˚t>8éi=/≥å<M6>Í‚É>~7—=_Ë7>üh8>hzE?Ü´Ê>‰˘ΩÉ®›>Ú≈,>lá>>Fg>Ñ<∑>≥◊ß><÷z=ÃYI>s<æèò‰>Æ∑nΩd´>sß´>ª” >ÎÄÙ<*`Bfc4.biasJPèù=Ωá$?~‰=æ–—??:*d=πN≈>^°ΩT9.æ∂*(?x,–Ω≤ŸÆ=Ö–?y1">oW’>Çßﬁ=¨†Œ>]˛á>? ≠=íç>*8
 Bfc5.biasJ(Òv	?7‚^Ω8?ôv?Ñ˝°?qÈ>g+tΩ˛B<ò'?ú±?*0Bfc6.biasJ ÍéôæÔ∏=≠J∑Ω†Ö§?Ô]?zÆø≤¥ΩæeXø*õª~PBonnx::MatMul_36JÄªπF=	=Ω˛C_ºT≥⁄=∆∆Ω€,Ü;JÖªÆHªB<|;º£7=7äbæ√Iæ:GÂ=rº<@ö<w€yΩ’h∆ª#"[æüƒº_Ï<ü:Ãº#°:»Á1æÎ„.º'=∂<¢UCΩÈlªÿÃªÀuˇ:∞Ÿ<:$ú=∫£æ<rŒí<µ≥=Îs>ΩeÃîª÷’;˜s=∆{/;°ÁJ∂¬DLº1		æÖ≥=úg€ºO¿Ωéﬁ;∑Ñ‘ªo\D<GIºòÂ&=ó@=ß˜õ<àeºç'=ÄâºÇ• ªiy =B)=?€Ì∫QøÕ:9fÑªfö‰<HXYªÈûx<ß[;æèb;Òïßº@≠ÆΩﬁ∆;¨<u∫mjö9,ô=À}ñ<ØD1<Ê‰≈ºå‚¸<ÚâΩòÃœ<¸}∂ºÅØº¶6ΩéΩÊˇzΩ 0Ω5£>√º+=x€ñ;I€ºlâ<‚L<ΩI_æè"´Ωx^º

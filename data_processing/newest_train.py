@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import data_processing.write_csv as w
 import itertools
-
+import utils as u
 def load_labels():
     ges = {}
     with open('gesture_names2.txt', 'r') as f:

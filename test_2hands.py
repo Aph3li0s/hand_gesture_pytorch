@@ -48,7 +48,7 @@ with mp_hands.Hands(
         max_num_hands=2,
         min_detection_confidence=0.5,
         min_tracking_confidence=0.5) as hands:
-    while cap.isOpened():
+    while cap.isOpened():# 640x480
         success, image = cap.read()
         if not success:
             print("Ignoring empty camera frame.")
