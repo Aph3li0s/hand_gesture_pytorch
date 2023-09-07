@@ -2,10 +2,9 @@ import cv2
 import mediapipe as mp
 import data_processing.write_csv as w
 import itertools
-import utils as u
 def load_labels():
     ges = {}
-    with open('gesture_names2.txt', 'r') as f:
+    with open('gesture_names.txt', 'r') as f:
         lines = f.readlines()
         for line in lines:
             num, label = line.strip().split(': ')
@@ -14,7 +13,7 @@ def load_labels():
     return ges.keys(), ges.values()
 
 def data_init():
-    num_im = 10
+    num_im = 500
     return num_im
 
 def calc_landmark_list(landmarks):
@@ -46,7 +45,7 @@ def train_live(num_label, num_im):
 
     cap = cv2.VideoCapture(0)
     i = 0
-    j = 3
+    j = 4
     with mp_hands.Hands(
             model_complexity=0,
             max_num_hands=2,
@@ -90,14 +89,14 @@ def train_live(num_label, num_im):
             cv2.imshow('MediaPipe Hands', final)
             cv2.putText(final, f'Label {num_label[j]}, Count: {i}', (10, 30), cv2.FONT_HERSHEY_DUPLEX, 0.8, 255)
             cv2.imshow('MediaPipe Hands', final)
-            key = cv2.waitKey(200)
+            key = cv2.waitKey(1)
             if key == 27:
                 break
             if key == ord(' '):
                 print(new_lst)
                 w.write_csv(num_label[j], new_lst)
                 i += 1
-            if i == num_class_lst[j]:
+            if i == num_im:
                 j += 1
                 i = 0
             if j == num_label[-1]:
@@ -108,8 +107,8 @@ def train_live(num_label, num_im):
 
 if __name__ == '__main__':
     ges_num = []
-    with open('csv_file/landmark_5_9_4.csv', 'w') as f:
-        f.truncate(0)
+    # with open('csv_file/landmark_7_9.csv', 'w') as f:
+    #     f.truncate(0)
     key, _ = load_labels()
     for i in key:
         ges_num.append(i)
