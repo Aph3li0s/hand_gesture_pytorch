@@ -5,18 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4afffef-cdc7-4c2d-b2ef-7e13993c4363" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rebuild_handges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rebuild_handges.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/camera.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/camera.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/newest_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/newest_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/test_cam.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/test_cam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_9_afternoon.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_9_2.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_9_3.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_9_4.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_9_5.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_9_1.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_9_2.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_9_3.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_9_4.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/camera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_5_9_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_5_9_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_7_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_7_9_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/output_file.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/temp.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/gesture_names.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/newest_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/test_cam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/train_auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/train_auto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/train_live_normalize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_processing/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_processing/write_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/write_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/5_9_newest.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/6_9_2.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/6_9_3.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/6_9_4.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/6_9_5.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/6_9_newest.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/7_9_1.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/7_9_2.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/7_9_3.pth" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/onnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/onnx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep06_23-26-22_G15/events.out.tfevents.1694017584.G15.33596.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep06_23-26-29_G15/events.out.tfevents.1694017589.G15.33596.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_00-26-17_G15/events.out.tfevents.1694021178.G15.18152.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_10-37-07_G15/events.out.tfevents.1694057830.G15.36360.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_10-59-27_G15/events.out.tfevents.1694059168.G15.16456.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_11-33-22_G15/events.out.tfevents.1694061204.G15.32928.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_13-38-46_G15/events.out.tfevents.1694068727.G15.22676.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_15-49-15_G15/events.out.tfevents.1694076557.G15.3612.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_16-53-44_G15/events.out.tfevents.1694080426.G15.30948.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/Sep07_17-45-48_G15/events.out.tfevents.1694083551.G15.12276.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_2hands.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_2hands_normalize.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/train_csv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train_csv.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +89,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="88ad1d17-3cca-4e47-9478-f5761d88af7f" />
+        <option name="url" value="https://github.com/Aph3li0s/hand_gesture_pytorch.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,13 +134,57 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\data_processing\csv_file" />
+      <recent name="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\models" />
       <recent name="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\data_processing" />
       <recent name="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges" />
       <recent name="C:\Users\ADMIN\Desktop\Code\planB\data" />
-      <recent name="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\data_processing\train" />
     </key>
   </component>
   <component name="RunManager" selected="Python.onnx">
+    <configuration name="concat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rebuild_handges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/concat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rebuild_handges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\demo_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="newest_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rebuild_handges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,50 +229,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_2hands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rebuild_handges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_2hands.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_cam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rebuild_handges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/test_cam.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="train_auto (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rebuild_handges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,9 +255,9 @@
       <list>
         <item itemvalue="Python.onnx" />
         <item itemvalue="Python.train_auto (1)" />
-        <item itemvalue="Python.test_2hands" />
+        <item itemvalue="Python.concat" />
+        <item itemvalue="Python.demo_model" />
         <item itemvalue="Python.newest_train" />
-        <item itemvalue="Python.test_cam" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +299,21 @@
       <workItem from="1694047588159" duration="1908000" />
       <workItem from="1694056586042" duration="17414000" />
       <workItem from="1694079770871" duration="3304000" />
+      <workItem from="1694092162069" duration="784000" />
+      <workItem from="1694094047262" duration="753000" />
+      <workItem from="1694096802914" duration="1046000" />
+      <workItem from="1694105416767" duration="5322000" />
+      <workItem from="1694158993219" duration="540000" />
+      <workItem from="1694159543605" duration="221000" />
+      <workItem from="1694162369468" duration="5526000" />
+      <workItem from="1694168086076" duration="452000" />
+      <workItem from="1694182146001" duration="2955000" />
+      <workItem from="1694229561663" duration="65000" />
+      <workItem from="1694231407870" duration="1984000" />
+      <workItem from="1694250431944" duration="603000" />
+      <workItem from="1694251432260" duration="728000" />
+      <workItem from="1694321581972" duration="4063000" />
+      <workItem from="1694331323962" duration="4480000" />
     </task>
     <servers />
   </component>
@@ -262,15 +332,15 @@
     <SUITE FILE_PATH="coverage/rebuild_handges$test_cam.coverage" NAME="test_cam Coverage Results" MODIFIED="1694067093817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test_im.coverage" NAME="test_im Coverage Results" MODIFIED="1693673340969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_b" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test_train2.coverage" NAME="test_train2 Coverage Results" MODIFIED="1693800484760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
-    <SUITE FILE_PATH="coverage/rebuild_handges$onnx.coverage" NAME="onnx Coverage Results" MODIFIED="1694083709363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rebuild_handges$onnx.coverage" NAME="onnx Coverage Results" MODIFIED="1694232787522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test_cam__1_.coverage" NAME="test_cam (1) Coverage Results" MODIFIED="1693988400565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
-    <SUITE FILE_PATH="coverage/rebuild_handges$train_auto__1_.coverage" NAME="train_auto (1) Coverage Results" MODIFIED="1694082630632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
+    <SUITE FILE_PATH="coverage/rebuild_handges$train_auto__1_.coverage" NAME="train_auto (1) Coverage Results" MODIFIED="1694231612245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test_2hands__1_.coverage" NAME="test_2hands (1) Coverage Results" MODIFIED="1693932263492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1693800438910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rebuild_handges$add.coverage" NAME="add Coverage Results" MODIFIED="1693804107413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../planB/data" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test_no_normalize.coverage" NAME="test_no_normalize Coverage Results" MODIFIED="1693804420691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../planB" />
-    <SUITE FILE_PATH="coverage/rebuild_handges$concat.coverage" NAME="concat Coverage Results" MODIFIED="1693902596850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
-    <SUITE FILE_PATH="coverage/rebuild_handges$test_2hands.coverage" NAME="test_2hands Coverage Results" MODIFIED="1694076692676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rebuild_handges$test_2hands.coverage" NAME="test_2hands Coverage Results" MODIFIED="1694165863992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rebuild_handges$concat.coverage" NAME="concat Coverage Results" MODIFIED="1694168141841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
     <SUITE FILE_PATH="coverage/rebuild_handges$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1693733739892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rebuild_handges$model.coverage" NAME="model Coverage Results" MODIFIED="1693893656591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rebuild_handges$train_auto_cap.coverage" NAME="train_auto_cap Coverage Results" MODIFIED="1693982403215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

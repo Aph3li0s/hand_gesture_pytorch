@@ -1,11 +1,12 @@
 import torch
 import model as m
 import torch.nn.functional as F
+
 class KeyPointClassifier(object):
     def __init__(self):
         self.device = 'cuda'
         self.model = m.SimpleNN4()
-        self.model.load_state_dict(torch.load('models/7_9_2.pth'))
+        self.model.load_state_dict(torch.load('models/8_9_1.pth'))
         self.model.eval().to(self.device)
 
     def __call__(self, landmark_list):

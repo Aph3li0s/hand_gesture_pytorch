@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../planB/.idea/planB.iml" filepath="$PROJECT_DIR$/../../planB/.idea/planB.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rebuild_handges.iml" filepath="$PROJECT_DIR$/.idea/rebuild_handges.iml" />
     </modules>
   </component>
