@@ -4,62 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4afffef-cdc7-4c2d-b2ef-7e13993c4363" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rebuild_handges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rebuild_handges.iml" afterDir="false" />
+    <list default="true" id="b4afffef-cdc7-4c2d-b2ef-7e13993c4363" name="Changes" comment="clean code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_9_afternoon.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_9_2.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_9_3.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_9_4.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_9_5.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_9_1.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_9_2.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_9_3.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_9_4.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/camera.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/concat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_5_9_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_5_9_4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_6_9_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_7_9.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/landmark_7_9_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/output_file.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/temp.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/csv_file/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/extract.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/gesture_names.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/newest_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/test_cam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/train_auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/train_auto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/train_live_normalize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_processing/write_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_processing/write_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/5_9_newest.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/6_9_2.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/6_9_3.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/6_9_4.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/6_9_5.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/6_9_newest.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/7_9_1.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/7_9_2.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/7_9_3.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/onnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/onnx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_10-37-07_G15/events.out.tfevents.1694057830.G15.36360.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_10-59-27_G15/events.out.tfevents.1694059168.G15.16456.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_11-33-22_G15/events.out.tfevents.1694061204.G15.32928.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_13-38-46_G15/events.out.tfevents.1694068727.G15.22676.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_15-49-15_G15/events.out.tfevents.1694076557.G15.3612.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_16-53-44_G15/events.out.tfevents.1694080426.G15.30948.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/Sep07_17-45-48_G15/events.out.tfevents.1694083551.G15.12276.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_2hands.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_2hands_normalize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_csv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/train_csv.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +86,7 @@
       <recent name="C:\Users\ADMIN\Desktop\Code\planB\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.onnx">
+  <component name="RunManager" selected="Python.demo_model (1)">
     <configuration name="concat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rebuild_handges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +109,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo_model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rebuild_handges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rebuild_handges" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,28 +145,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\ADMIN\Desktop\Code\test_mediapipe\rebuild_handges\demo_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="newest_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="rebuild_handges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_processing/newest_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.onnx" />
+        <item itemvalue="Python.demo_model (1)" />
         <item itemvalue="Python.train_auto (1)" />
+        <item itemvalue="Python.onnx" />
         <item itemvalue="Python.concat" />
         <item itemvalue="Python.demo_model" />
-        <item itemvalue="Python.newest_train" />
       </list>
     </recent_temporary>
   </component>
@@ -313,12 +259,37 @@
       <workItem from="1694250431944" duration="603000" />
       <workItem from="1694251432260" duration="728000" />
       <workItem from="1694321581972" duration="4063000" />
-      <workItem from="1694331323962" duration="4480000" />
+      <workItem from="1694331323962" duration="4926000" />
+      <workItem from="1694421481655" duration="1024000" />
+      <workItem from="1694425397293" duration="973000" />
     </task>
+    <task id="LOCAL-00001" summary="clean code">
+      <created>1694336134544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694336134544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rebuild_handges$train_live.coverage" NAME="train_live Coverage Results" MODIFIED="1693799169605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_processing" />
