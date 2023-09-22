@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
-
+import torch
 class SimpleNN4(nn.Module):
     def __init__(self, num_classes=8):
         super(SimpleNN4, self).__init__()
@@ -31,3 +31,11 @@ class SimpleNN4(nn.Module):
         x = self.dropout5(x)
         x = self.fc6(x)
         return x
+    
+if __name__ == "__main__":
+    a = torch.rand(1, 1, 126)
+    model = SimpleNN4()
+    print(model(a).shape)
+    
+    total_params = sum(p.numel() for p in model.parameters())
+    print(f"{total_params:,} total parameters.")

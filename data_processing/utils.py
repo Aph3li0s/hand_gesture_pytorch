@@ -2,7 +2,7 @@ import itertools
 
 def load_labels():
     ges = {}
-    with open('gesture_names2.txt', 'r') as f:
+    with open('data_processing/gesture_names2.txt', 'r') as f:
         lines = f.readlines()
         for line in lines:
             num, label = line.strip().split(': ')
