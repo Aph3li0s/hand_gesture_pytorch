@@ -20,7 +20,7 @@ def calc_landmark_list(landmarks):
 
 def load_labels():
     ges = {}
-    with open('data_processing/gesture_names2.txt', 'r') as f:
+    with open('data_processing/gesture_names.txt', 'r') as f:
         lines = f.readlines()
         for line in lines:
             num, label = line.strip().split(': ')
@@ -45,7 +45,7 @@ gestures = dict(zip(key, value))
 cap = cv2.VideoCapture(0)
 with mp_hands.Hands(
         model_complexity=0,
-        max_num_hands=2,
+        max_num_hands=1,
         min_detection_confidence=0.5,
         min_tracking_confidence=0.5) as hands:
     while cap.isOpened():# 640x480
@@ -60,7 +60,7 @@ with mp_hands.Hands(
         image.flags.writeable = True
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
-        gesture_index = 8
+        gesture_index = 5
         if results.multi_hand_landmarks and results.multi_handedness:
             for hand_landmarks, handedness in zip(results.multi_hand_landmarks, results.multi_handedness):
                 mp_drawing.draw_landmarks(

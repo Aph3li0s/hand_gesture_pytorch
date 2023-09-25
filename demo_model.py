@@ -75,10 +75,10 @@ with mp_hands.Hands(
 
                 if handedness.classification[0].label == "Left":
                     right.extend(landmark_list)
-                    print("R")
+                    # print("R")
                 elif handedness.classification[0].label == "Right":
                     left.extend(landmark_list)
-                    print("L")
+                    # print("L")
             if len(results.multi_handedness) == 1:
                 if handedness.classification[0].label == "Left":
                     new_lst = combined_lst(right, 1)
